@@ -1,0 +1,373 @@
+/* Estilos Gerais */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+img{
+    display: block;
+}
+.btn{
+    border: 3px solid;
+    color: #FEC63E;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    ;
+}
+
+.btn:hover{
+    color:#fff;
+}
+.btn-preto:hover{
+    color: #000;
+}
+
+.sub{
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 20px auto;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* Header */
+
+.header{
+    width: 100%;
+    background-color: #FEC63E;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header_menu{
+    text-align: right;
+}
+.header_menu ul li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+   
+}
+
+.header_menu ul li a{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.header_menu ul li a:hover{
+    color: #fff;
+}
+
+
+/* Introdução */
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("../img/principal.svg") no-repeat center;
+    background-size: cover;
+    margin-top: 56px;
+}
+
+.int{
+    text-align: center;
+    padding: 100px;
+    
+}
+.int h1{
+    
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.quote-externo{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.quote-externo p{
+    font-style: italic;
+}
+.quote-externo p:before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+.quote-externo p:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+.quote-externo cite{
+    font-style: normal;
+    font-weight: bold;
+} 
+/* Produtos */
+.produtos{
+    padding: 60px 0;
+}
+
+.produtos_listas li{
+    background-color: #FEC63E;
+    text-align: center;
+    
+
+}
+.produtos_icone{
+    background-color: #000;
+
+    padding: 20px ;
+}
+.produtos_listas li h3{
+    
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+    
+}
+#h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 2px auto;
+}
+
+.produtos_listas li p{
+     padding: 10px 20px 20px 10px;
+}
+
+.sub .subtitulo:before, .subtitulo:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 10px auto;
+}
+
+.call{
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+.call p{
+    margin-bottom: 20px;
+}
+/* Portfólio */
+.portfolio {
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+.portfolio .sub{
+    color: #FEC63E;
+}
+.portfolio .sub:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FEC63E;
+    margin: 10px auto;
+}
+.call2{
+    color: white;
+}
+.portfolio_lista li:last-child{
+    margin-top: 20px;
+}
+.portfolio .call p{
+    color: white;
+}
+/* Qualidade */
+
+.qualidade{
+    padding: 60px 0px;
+}
+.qualidade:after{
+    content: "";
+    width: 623px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 270px;
+    right: 170px;
+}
+.qualidade img{
+    margin: 0 auto;
+}
+.qualidade_lista li{
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 50px;
+}
+
+.qualidade_lista h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 25px;
+    z-index: -1;
+}
+.qualidade_lista h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px auto;
+}
+.qualidade .sub:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 8px auto;
+}
+/* Quebra */
+.quebra{
+    width: 100%;
+    height: 220px;
+    background:url("../img/imgfoote.svg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.quebre .quote-externo{
+  max-width: 40px;
+}
+/* footer */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: #000;
+    color: #fff;
+    padding: 40px;
+}
+.footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+.footer h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FEC63E;
+    margin: 5px 0;
+    
+}
+
+.footer_historia{
+    padding-right: 40px ;
+}
+.footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+   
+}
+.footer_redes ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.copr .p {
+    background: #FEC63E;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+
+}
+.copr{
+    width: 100%;
+    background: #FEC63E;
+    
+    height: 40px;
+    margin: 18px 0;
+}
+.copr p{
+    text-align: center;
+    padding: 13px;
+    color: #000;
+}
+
+/* Sobre */
+.introducao_sobre {
+    width: 100%;
+    height: 160px;
+    background: url("../img/principal2.svg") no-repeat center;
+    background-size: cover;
+    margin-top: 70px;
+}
+.introducao_sobre:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+.introducao_sobre h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+
+.block_quote{
+    text-align: center;
+    color: #fff;
+
+}
